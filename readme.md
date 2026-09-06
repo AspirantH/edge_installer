@@ -92,9 +92,9 @@ f7c0babb9978f961061c1da856c65b5393b803ea3e5b625a6b6fc900ad975d3f  MicrosoftEdge_
 
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
-| **x86** | `154.0.4255.0` | 174.86 MB | `4b071be6bca8f975...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1b2b1723-8704-4d87-ba67-cce84843b1af?P1=1788994901&P2=404&P3=2&P4=OpkNfLrS7bBoJ%2fmT4BDAFMTxI9rdZbH%2bfEsvyUqaZkA7pcJ4T7DJHJpFUkgNnlsC2HsX4h3oYWR%2fCGU6d%2bmuMA%3d%3d) |
-| **x64** | `154.0.4255.0` | 197.92 MB | `404b79e678971088...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/07c94a97-9387-4f15-bd1b-a43bf73f9495?P1=1788994883&P2=404&P3=2&P4=N5bDdN6wW87JdbgA5yeQ%2fYlJ%2f8EsMIbD10OVG%2f16vB%2blItA1YqmpwYWinKtvfFwfShEre%2f9%2fnRWivIDYea45tQ%3d%3d) |
-| **ARM64** | `154.0.4255.0` | 201.57 MB | `9a79fb0be806e344...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/da64e398-0874-4263-96e4-610465ce8043?P1=1788994885&P2=404&P3=2&P4=WKZayRUQEm5aHjTLsZ6ZW4ZsLHfcD00YSKt0pXAoM7Hy3BUkpMpl9dMVn%2fjE6E%2bk1%2fqm5ysscc4ukJM%2b5ccdLQ%3d%3d) |
+| **x86** | `154.0.4255.0` | 174.86 MB | `4b071be6bca8f975...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1b2b1723-8704-4d87-ba67-cce84843b1af?P1=1789342338&P2=404&P3=2&P4=bWINyxHnzR%2fFSu12XYMxosapIJV0jEObNKz86Qf8Rj%2bRWfpKTXx6E5icwCTR8dMFy3%2bIALbjdyvSQm0dyqGY6g%3d%3d) |
+| **x64** | `154.0.4255.0` | 197.92 MB | `404b79e678971088...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/07c94a97-9387-4f15-bd1b-a43bf73f9495?P1=1789342339&P2=404&P3=2&P4=fpN0ChgAOOSveRguMl46Ea3IrygbRUbMOpu0vA%2b%2bLIjP7kXcQS95s3b%2ffVQlg9p4qi7FQVGPSiSX18IDwhUfKA%3d%3d) |
+| **ARM64** | `154.0.4255.0` | 201.57 MB | `9a79fb0be806e344...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/da64e398-0874-4263-96e4-610465ce8043?P1=1789342340&P2=404&P3=2&P4=b58TW%2fI0wNJeIzYCDcnfp5zo7y9VXPnGMTQe8uKT9Y2k6nEf3I8Y4dp0vC04rvad%2fy1TmfG%2b4d3cV1d8AlX32w%3d%3d) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>

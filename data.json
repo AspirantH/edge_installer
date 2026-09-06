@@ -97,7 +97,7 @@
     },
     "msedge-canary-win-x86": {
         "file_name": "MicrosoftEdge_X86_154.0.4255.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1b2b1723-8704-4d87-ba67-cce84843b1af?P1=1788994901&P2=404&P3=2&P4=OpkNfLrS7bBoJ%2fmT4BDAFMTxI9rdZbH%2bfEsvyUqaZkA7pcJ4T7DJHJpFUkgNnlsC2HsX4h3oYWR%2fCGU6d%2bmuMA%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1b2b1723-8704-4d87-ba67-cce84843b1af?P1=1789342338&P2=404&P3=2&P4=bWINyxHnzR%2fFSu12XYMxosapIJV0jEObNKz86Qf8Rj%2bRWfpKTXx6E5icwCTR8dMFy3%2bIALbjdyvSQm0dyqGY6g%3d%3d",
         "size_in_bytes": 183350608,
         "Sha1": "7y3BSmRiUiT+kWDzQjr9lkGzS2o=",
         "Sha256": "4b071be6bca8f97522780a04db2e3ced6f809d526073f603c3bf36c817766cfe",
@@ -105,7 +105,7 @@
     },
     "msedge-canary-win-x64": {
         "file_name": "MicrosoftEdge_X64_154.0.4255.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/07c94a97-9387-4f15-bd1b-a43bf73f9495?P1=1788994883&P2=404&P3=2&P4=N5bDdN6wW87JdbgA5yeQ%2fYlJ%2f8EsMIbD10OVG%2f16vB%2blItA1YqmpwYWinKtvfFwfShEre%2f9%2fnRWivIDYea45tQ%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/07c94a97-9387-4f15-bd1b-a43bf73f9495?P1=1789342339&P2=404&P3=2&P4=fpN0ChgAOOSveRguMl46Ea3IrygbRUbMOpu0vA%2b%2bLIjP7kXcQS95s3b%2ffVQlg9p4qi7FQVGPSiSX18IDwhUfKA%3d%3d",
         "size_in_bytes": 207530832,
         "Sha1": "fm7GC9KbqYfQMLRBjC7nWKxbL7c=",
         "Sha256": "404b79e678971088f5f09b9e762aaffb96c0cac09f8e6870cf0ff55d4d3a7d8b",
@@ -113,7 +113,7 @@
     },
     "msedge-canary-win-ARM64": {
         "file_name": "MicrosoftEdge_ARM64_154.0.4255.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/da64e398-0874-4263-96e4-610465ce8043?P1=1788994885&P2=404&P3=2&P4=WKZayRUQEm5aHjTLsZ6ZW4ZsLHfcD00YSKt0pXAoM7Hy3BUkpMpl9dMVn%2fjE6E%2bk1%2fqm5ysscc4ukJM%2b5ccdLQ%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/da64e398-0874-4263-96e4-610465ce8043?P1=1789342340&P2=404&P3=2&P4=b58TW%2fI0wNJeIzYCDcnfp5zo7y9VXPnGMTQe8uKT9Y2k6nEf3I8Y4dp0vC04rvad%2fy1TmfG%2b4d3cV1d8AlX32w%3d%3d",
         "size_in_bytes": 211365200,
         "Sha1": "4MRcZA60aXSbUrFH2sU+Qab4Yzc=",
         "Sha256": "9a79fb0be806e344ca211667b176439a810824133e142b646a2127db6bb47234",
