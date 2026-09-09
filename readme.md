@@ -92,7 +92,7 @@ f7c0babb9978f961061c1da856c65b5393b803ea3e5b625a6b6fc900ad975d3f  MicrosoftEdge_
 
 | Architecture | Version | Size | SHA-256 | Download |
 |--------------|---------|------|---------|----------|
-| **x86** | `155.0.4266.0` | 169.9 MB | `d43d3444ca3000af...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/996229bf-fb9b-4155-b747-c345546ec7ec?P1=1789484170&P2=404&P3=2&P4=ApnNmahWWYP6cW5YJ%2fhMfHCtQdcsi1pV0ljqb4ocIgXsCZ1McRZhswnA41ELpvirIwx5Hdu9U5%2fLy1ZnmBmkrg%3d%3d) |
+| **x86** | `155.0.4267.0` | 170.9 MB | `04244b4c48581101...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/377e438e-45d2-4a53-98a9-26a0e45b7234?P1=1789529150&P2=404&P3=2&P4=jD1buDuq76gsuFmxUn0bgKtM3aiiuRXFPuOV8HloU39FI44wHWdXR2MeesXHCftAGJL3%2fF00qgJLX75TC5j3EA%3d%3d) |
 | **x64** | `155.0.4267.0` | 193 MB | `c9466d01f4713082...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/71dfda72-5655-4c4e-9215-e7d1485c0c03?P1=1789516337&P2=404&P3=2&P4=XpE7J9SejPpgogGPDNejOffvQnWuDXnt8lbikdCJvPvW16gnv80AEqzkT6eZGIdWRFcBwUc2JPhTpMJ19NyP%2bQ%3d%3d) |
 | **ARM64** | `155.0.4267.0` | 196.62 MB | `288b6781f47b5b49...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6eb96bbd-a865-4c9c-b7cc-4c53b3523129?P1=1789516342&P2=404&P3=2&P4=EiSbTnipVy0WIEymD9TTNsRehFV%2bhPt4sD%2b%2bev%2bMc3Ws2r%2fvXfmUeYIEssxgKE7fo73lD81w%2fI%2b8LT7RIh41nQ%3d%3d) |
 
@@ -100,7 +100,7 @@ f7c0babb9978f961061c1da856c65b5393b803ea3e5b625a6b6fc900ad975d3f  MicrosoftEdge_
 <summary>Full SHA-256 (sha256sum -c)</summary>
 
 ```
-d43d3444ca3000afe410254c7968163c003423aab5320a139b1146df5eb97ddd  MicrosoftEdge_X86_155.0.4266.0.exe
+04244b4c4858110136d25f35a5a921f70e22f6e1c4e205b03ececa15e8976fe9  MicrosoftEdge_X86_155.0.4267.0.exe
 c9466d01f4713082148d4acd172d2e0696b1fb8a5d77f91c62840df606056a76  MicrosoftEdge_X64_155.0.4267.0.exe
 288b6781f47b5b49cb96b7ddd987521c5cf27ae568a1280055dddd2d04a0173b  MicrosoftEdge_ARM64_155.0.4267.0.exe
 ```
