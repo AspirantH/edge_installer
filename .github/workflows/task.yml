@@ -1,0 +1,112 @@
+name: Check Update and Upload Releases
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */1 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check Update
+        id: fetch
+        run: |
+          python fetch.py
+          echo "LATEST_VERSION=$(grep -oP 'LATEST_VERSION=\K.*' <<< "$(python fetch.py)")" >> $GITHUB_OUTPUT
+
+      - name: Set version env
+        run: echo "latest_version=${{ steps.fetch.outputs.LATEST_VERSION }}" >> $GITHUB_ENV
+
+      - name: Download Latest Stable Releases
+        run: python download.py
+
+      - name: Check for EXE Files
+        id: check_files
+        run: |
+          if find . -name "*.exe" -print -quit | grep -q .; then
+            echo "exe_exists=true" >> $GITHUB_ENV
+          else
+            echo "exe_exists=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and Push Changes
+        if: env.exe_exists == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m ":pencil: Auto update Edge at $(date +'%Y-%m-%d %H:%M')"
+          git push origin main
+
+      - name: Upload to WebDAV
+        if: env.exe_exists == 'true'
+        env:
+          WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+          WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+          WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
+          WEBDAV_PATH: ${{ secrets.WEBDAV_PATH }}
+        run: |
+          found=0
+          for file in $(find . -name "*.exe" -type f); do
+            if echo "$file" | grep -qiE "x64|amd64"; then
+              echo "Found x64 file: $file"
+              filename=$(basename "$file")
+              url="${WEBDAV_URL}${WEBDAV_PATH}/${filename}"
+              curl -u "${WEBDAV_USER}:${WEBDAV_PASS}" -T "$file" "$url" --fail
+              echo "✅ Uploaded $filename to WebDAV"
+              found=1
+            fi
+          done
+          if [ $found -eq 0 ]; then
+            echo "⚠️ Failed to upload."
+          fi
+
+      - name: Check if Tag Exists
+        id: check_tag
+        if: env.exe_exists == 'true'
+        run: |
+          if git rev-parse "refs/tags/${{ env.latest_version }}" >/dev/null 2>&1; then
+            echo "tag_exists=true" >> $GITHUB_ENV
+          else
+            echo "tag_exists=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and Push Changes
+        env:
+          TZ: America/New_York
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m ":pencil: Auto update Edge at  $(date +"%Y-%m-%d %H:%M")" -a || echo "No changes to commit"
+          git push origin main
+
+      - name: Upload Release
+        if: env.exe_exists == 'true' && env.tag_exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.latest_version }}
+          files: '*.exe'
+
+      - name: Reset Main Branch
+        if: env.exe_exists == 'true' && env.tag_exists == 'false'
+        run: |
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "Init"
+          git push --force origin temp_branch:main
