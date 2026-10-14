@@ -94,7 +94,7 @@ f7ae8f0eff998b8979e1e0cc401a1c7dc14e81da3648586790e0f67afa7ecf42  MicrosoftEdge_
 |--------------|---------|------|---------|----------|
 | **x86** | `157.0.4338.0` | 175.6 MB | `9f5aef14134a1b01...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1db7cc3c-ceb6-4700-b012-be96f6d2111f?P1=1792588872&P2=404&P3=2&P4=TQUxyKfobD66AL0PwnmLyg2acXy7vAuYyRcw0cx7eqBSlhwIuCRnxqFkjSGrOpCcZgqsYDbtGLPKHbRi%2bCh8NA%3d%3d) |
 | **x64** | `157.0.4338.0` | 198.53 MB | `3770610c81545c95...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/3167c9a6-f822-4f67-a0f1-63704dcccb38?P1=1792588872&P2=404&P3=2&P4=AfU2hmmfSK9csc5kB1%2fWU2YyEQds1gMAnncg80UDwA2qAX4bX0eY2tu0pK7OlG75prY%2f8g1k7rEefkYei0D3%2bw%3d%3d) |
-| **ARM64** | `157.0.4336.0` | 201.98 MB | `7391cdd8f4baa7a2...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/6792ea5a-c157-40fe-83c5-6e384c736b57?P1=1792519063&P2=404&P3=2&P4=aHvuU9KGfqWlfkfbKbijqakeAFcr4o%2f2FAGUaYAYcl5a7Q2YmbSf%2bSEXIcokC1LDLCkH%2bJlq%2bxeoDq%2ba37nN%2fg%3d%3d) |
+| **ARM64** | `157.0.4338.0` | 201.78 MB | `0916501aaa3f6170...` | [Download](https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/1c91b0fe-bc28-4206-a08b-b412dd83b854?P1=1792606780&P2=404&P3=2&P4=ZP%2fLgB6DFVGjEsgKzUvu%2bjQmroukYPLU810gZzB70rm3%2fGfw3V7AJrBVnzrzer18h0OTgksR54tFInsWKj7SrA%3d%3d) |
 
 <details>
 <summary>Full SHA-256 (sha256sum -c)</summary>
@@ -102,7 +102,7 @@ f7ae8f0eff998b8979e1e0cc401a1c7dc14e81da3648586790e0f67afa7ecf42  MicrosoftEdge_
 ```
 9f5aef14134a1b011054a15f0b39a32eee8fe8471fa116d9f727bfd5c69680dc  MicrosoftEdge_X86_157.0.4338.0.exe
 3770610c81545c9568ab2a8592d7009494557c0f48531fa61e52d259b0f534c1  MicrosoftEdge_X64_157.0.4338.0.exe
-7391cdd8f4baa7a247c70a26c53ee658f8d173f58092c853fda4a5eca6d60893  MicrosoftEdge_ARM64_157.0.4336.0.exe
+0916501aaa3f617056d39811820d25781a3918c5bab052409b94f550936c2c41  MicrosoftEdge_ARM64_157.0.4338.0.exe
 ```
 
 </details>
