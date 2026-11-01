@@ -73,7 +73,7 @@
     },
     "msedge-dev-win-x86": {
         "file_name": "MicrosoftEdge_X86_158.0.4357.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/7451cfd1-3b71-4d29-b9b8-32cd62992752?P1=1793767816&P2=404&P3=2&P4=DfmHkT7v7EH%2beKX8BNeEcYb5hBE4SCbjlViD%2fWP0Ln2E63JuQqgkhqe9fGY%2bOGRYx%2fbPUEvf%2b6C5d3TtCYS84w%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/7451cfd1-3b71-4d29-b9b8-32cd62992752?P1=1794114673&P2=404&P3=2&P4=F9Fy6rU5ZXZhKaBDYXHkyfBuOOk6%2fl0zl3qlPqXCFA67wafI2yI14ggIhf%2b0FvU%2fNR3%2bLt8X0nZ4RLjL1Mzmkg%3d%3d",
         "size_in_bytes": 186814288,
         "Sha1": "MOPPfrLrgZb5tf6d9tdLl82FHKA=",
         "Sha256": "811a89801a2357a8a634738a335d859a7ce626387868945b632e6c61458624fd",
@@ -81,7 +81,7 @@
     },
     "msedge-dev-win-x64": {
         "file_name": "MicrosoftEdge_X64_158.0.4357.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/86e586ae-03cd-4ac0-938b-b2f3099af7b4?P1=1793767817&P2=404&P3=2&P4=l2wpp%2fRuJlhHL4Rp3qfRqVsR%2bZbk5%2fNsRRKpTzRcnbqCKIUSG3uIYibBRfcduHwSiD9hgbVodJTJ8A8it4WWEg%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/86e586ae-03cd-4ac0-938b-b2f3099af7b4?P1=1794114674&P2=404&P3=2&P4=BLRM9tX33IG2EwLn4Eg363srauFNkDjRfwRMgJTGkCN0GBXo8WElzQ5T3%2brR8t2QP96poIl7Bo%2bs6%2fzwsPpvFQ%3d%3d",
         "size_in_bytes": 209767760,
         "Sha1": "eMr0plgc7kuzO4MjXP5sX6Bkjvc=",
         "Sha256": "897e485ee8f2b3cb9761024d7c5d00e1867f978e70a0e5500f3b98d6e1ac5881",
@@ -89,7 +89,7 @@
     },
     "msedge-dev-win-ARM64": {
         "file_name": "MicrosoftEdge_ARM64_158.0.4357.0.exe",
-        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/b689291f-4bd3-4688-9e53-f7262cd748be?P1=1793767817&P2=404&P3=2&P4=Z6YifVhbDqUbKsv8bmGsX4GuhbfK1u4NghSs%2fhLuOuobf8s7a8NBKNMVhFpzbd%2fk9l30SUodjxOS42mxcQzqWg%3d%3d",
+        "url": "https://msedge.sb.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/b689291f-4bd3-4688-9e53-f7262cd748be?P1=1794114675&P2=404&P3=2&P4=K1LAODvKwWpzBRwtRZz%2fl%2fkRFDfe%2fijTt%2fLZGsZJCOngfPy2DiKW6upxlgDD8hwWsT16ZEk0ADxwIBSnAl9UXQ%3d%3d",
         "size_in_bytes": 213105488,
         "Sha1": "FpXJ/1ZN6qjqaS8t38Je3Xnjtm0=",
         "Sha256": "9cfdb62b0218eba135830a611998e2398b0c0e1b94636218babd943bec5c9808",
